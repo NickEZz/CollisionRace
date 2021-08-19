@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A8B037B6-8148-2C82-A725-DB86B41326BB}</ProjectGuid>
+    <ProjectGuid>{703A9592-3FA7-BC30-4D94-4258E3176DE1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.SpriteShape.Editor</AssemblyName>
@@ -688,31 +688,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{553E4738-3E17-0B19-9DAF-A8960AD4B3D7}</Project>
+      <Project>{3B4FB5DB-751F-F378-E0D4-EE6DE3BBE405}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{6FDCE139-1149-F1DA-AFB3-E96D7C8BDF8C}</Project>
+      <Project>{19799B64-75BF-CC3E-7514-50646B7DB3E0}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{93E5F27F-5220-25A3-09A2-6999ED425D41}</Project>
+      <Project>{E3112D97-4A3E-AEB5-1362-9783FAE9B5F1}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{54B5ABD0-0714-4086-C217-C4D24A3CC6A6}</Project>
+      <Project>{97534A5D-C8FB-5C17-A382-71491AC39022}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{8AD2B808-379E-18E6-FADA-D3D2992A8633}</Project>
+      <Project>{A368C2AB-9F8E-84BC-8440-4BC9CB26FE58}</Project>
       <Name>Unity.2D.Path.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{48D1A238-38DD-F92F-A3FB-8E6978E4E337}</Project>
+      <Project>{C15E2BD4-1116-F860-09EC-9396E9521808}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{47C86EA2-553B-CF88-35DD-E5B2F023302F}</Project>
+      <Project>{EB6673E9-5B25-CEBD-D7EE-309C6D8917D0}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

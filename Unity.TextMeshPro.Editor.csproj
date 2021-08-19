@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F320A347-7B08-629B-7C14-A3A428C141C9}</ProjectGuid>
+    <ProjectGuid>{CBDE1717-ACA7-3C3E-BBDD-F8D3B0F9A35B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
@@ -89,8 +89,8 @@
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_GlyphPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_FontAssetEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_MeshRendererEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_PreBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_MeshRendererEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_SpriteAssetMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMPro_ContextMenus.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.4\Scripts\Editor\TMP_ResourcesLoader.cs" />
@@ -716,15 +716,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{F2C127C3-E782-8EA9-4291-F81F7F36BA2F}</Project>
+      <Project>{0DC2E28E-8655-64C7-D532-AEAB804AD331}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{48D1A238-38DD-F92F-A3FB-8E6978E4E337}</Project>
+      <Project>{C15E2BD4-1116-F860-09EC-9396E9521808}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{47C86EA2-553B-CF88-35DD-E5B2F023302F}</Project>
+      <Project>{EB6673E9-5B25-CEBD-D7EE-309C6D8917D0}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

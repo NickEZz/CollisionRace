@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F4DCA4CC-7EE3-AE7A-9852-8F5CF347B926}</ProjectGuid>
+    <ProjectGuid>{B5DE974B-9D8A-CA58-99E5-49F475DA48D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Animation.Editor</AssemblyName>
@@ -132,8 +132,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\Undo\IUndo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\IMGUI\SkeletonController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\SkinningModuleView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\SkinningCache\SkeletonCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\WeightPainterToolWrapper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\SkinningCache\SkeletonCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\UI\VisualElementExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SpriteLib\SpriteSelectionWidget.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\ColorExtensions.cs" />
@@ -862,35 +862,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{553E4738-3E17-0B19-9DAF-A8960AD4B3D7}</Project>
+      <Project>{3B4FB5DB-751F-F378-E0D4-EE6DE3BBE405}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{25C4EC56-B588-99A8-8A42-617E93801F71}</Project>
+      <Project>{A4075668-32A9-FB7D-6B14-994FFE8C74CA}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{6FDCE139-1149-F1DA-AFB3-E96D7C8BDF8C}</Project>
+      <Project>{19799B64-75BF-CC3E-7514-50646B7DB3E0}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{93E5F27F-5220-25A3-09A2-6999ED425D41}</Project>
+      <Project>{E3112D97-4A3E-AEB5-1362-9783FAE9B5F1}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{285E28F1-72A3-E7DD-C658-10E04098EC7E}</Project>
+      <Project>{E9477CE7-CCAE-A6A4-3A69-163F35177970}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
-      <Project>{B7A811CE-97C8-1D97-D016-1AA6F9A2CD0F}</Project>
+      <Project>{000DAA86-5306-389D-D538-595D6308CDE2}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{48D1A238-38DD-F92F-A3FB-8E6978E4E337}</Project>
+      <Project>{C15E2BD4-1116-F860-09EC-9396E9521808}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{47C86EA2-553B-CF88-35DD-E5B2F023302F}</Project>
+      <Project>{EB6673E9-5B25-CEBD-D7EE-309C6D8917D0}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

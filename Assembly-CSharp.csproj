@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9E589FD9-3607-B7D1-39E8-7FE6DF6AD6BC}</ProjectGuid>
+    <ProjectGuid>{740574F3-1CAB-B780-BFA6-600434593BC5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\sricps\carcontroller.cs" />
     <Compile Include="Assets\sricps\CanInput.cs" />
+    <Compile Include="Assets\sricps\WheelTrail.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -648,112 +649,112 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{F4DCA4CC-7EE3-AE7A-9852-8F5CF347B926}</Project>
+      <Project>{B5DE974B-9D8A-CA58-99E5-49F475DA48D9}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{25C4EC56-B588-99A8-8A42-617E93801F71}</Project>
+      <Project>{A4075668-32A9-FB7D-6B14-994FFE8C74CA}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{B7EF6871-7425-12AA-5529-D43F46C968CC}</Project>
+      <Project>{F8D4DAAC-E796-D476-FC2C-69FB291A4532}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
-      <Project>{7208AE78-840B-6DB9-A749-F0D49AD9A7B6}</Project>
+      <Project>{D44FF7AE-18E7-20C3-FDA3-BEC1AC9C85D6}</Project>
       <Name>Unity.2D.PixelPerfect</Name>
     </ProjectReference>
     <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{811F7595-B407-BFFE-9952-EDFF92F3DC4B}</Project>
+      <Project>{775EE11C-EEDD-3FFE-48E9-A47B932261AA}</Project>
       <Name>PsdPlugin</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{F320A347-7B08-629B-7C14-A3A428C141C9}</Project>
+      <Project>{CBDE1717-ACA7-3C3E-BBDD-F8D3B0F9A35B}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{AECAA159-E40C-AED8-B415-E506A65B9396}</Project>
+      <Project>{810A9817-2975-68BF-646F-2CAC25E03528}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{A6F1C8D1-0A33-4795-23B7-2E4F2E48F7FE}</Project>
+      <Project>{2AF02CBB-0BC0-98CD-B371-7E85A12ABC58}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{F2C127C3-E782-8EA9-4291-F81F7F36BA2F}</Project>
+      <Project>{0DC2E28E-8655-64C7-D532-AEAB804AD331}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Editor.csproj">
-      <Project>{6D7A3C5B-7DDA-E6B1-2C70-E9963929483D}</Project>
+      <Project>{B489D64C-1F59-3642-2039-558F603739AC}</Project>
       <Name>Unity.2D.IK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
-      <Project>{36C2DB5A-4F7A-DB98-AD89-EB5375CD1D08}</Project>
+      <Project>{E99D152A-00EB-AB20-5761-05E7F6B28A36}</Project>
       <Name>Unity.2D.Psdimporter.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{8AD2B808-379E-18E6-FADA-D3D2992A8633}</Project>
+      <Project>{A368C2AB-9F8E-84BC-8440-4BC9CB26FE58}</Project>
       <Name>Unity.2D.Path.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{553E4738-3E17-0B19-9DAF-A8960AD4B3D7}</Project>
+      <Project>{3B4FB5DB-751F-F378-E0D4-EE6DE3BBE405}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{F35B68E1-144E-3C11-D049-E5331EF244E5}</Project>
+      <Project>{AA4545D4-D448-BD4F-F7C9-F4874747EB34}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{68DA468A-F835-9F04-CAAC-6C5F94904579}</Project>
+      <Project>{78C1C81C-0F5A-C883-FA28-870231F29CF5}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
-      <Project>{EA03E6F6-D36D-130C-BEC7-89DED54B5F7A}</Project>
+      <Project>{70CAAE0B-CD71-26C9-7532-E9F66A095963}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{DA9C3BA3-C7F2-605E-C2D4-03C62305DF81}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{E4E01D80-A560-F38B-C31C-82617E93C01D}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
-      <Project>{B7A811CE-97C8-1D97-D016-1AA6F9A2CD0F}</Project>
+      <Project>{000DAA86-5306-389D-D538-595D6308CDE2}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{285E28F1-72A3-E7DD-C658-10E04098EC7E}</Project>
+      <Project>{E9477CE7-CCAE-A6A4-3A69-163F35177970}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
-      <Project>{D6F7B2BD-FF61-3FDF-BB64-C57F4E93D547}</Project>
+      <Project>{54005946-EBD2-B435-30A2-AC934ADCFCF0}</Project>
       <Name>Unity.2D.PixelPerfect.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{F35B0A81-0744-1105-ABA6-2F7345CE217E}</Project>
+      <Project>{7CEAFD57-191F-FA96-1418-F539A43AC8AC}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{76DCA08D-1D01-7BAA-6F4F-9634DE2136E3}</Project>
+      <Project>{7D27E124-3C78-3904-279B-B0851ED0AEFD}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{93E5F27F-5220-25A3-09A2-6999ED425D41}</Project>
+      <Project>{E3112D97-4A3E-AEB5-1362-9783FAE9B5F1}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
-      <Project>{A8B037B6-8148-2C82-A725-DB86B41326BB}</Project>
+      <Project>{703A9592-3FA7-BC30-4D94-4258E3176DE1}</Project>
       <Name>Unity.2D.SpriteShape.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{6FDCE139-1149-F1DA-AFB3-E96D7C8BDF8C}</Project>
+      <Project>{19799B64-75BF-CC3E-7514-50646B7DB3E0}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{54B5ABD0-0714-4086-C217-C4D24A3CC6A6}</Project>
+      <Project>{97534A5D-C8FB-5C17-A382-71491AC39022}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{03F01DDA-E0B4-E776-3D2B-F8272C3C49AA}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{534AF12E-25C2-C1EF-1C09-16C3A0505D61}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

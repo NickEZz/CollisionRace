@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 218944357
+    locked: 0
+  - name: skidmarks
+    uniqueID: 3607529905
+    locked: 0
+  - name: player
+    uniqueID: 769508681
+    locked: 0
+  - name: particles
+    uniqueID: 2190949549
+    locked: 0
