@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +16,7 @@ public class carcontroller : MonoBehaviour
     float rotationAngle = 0;
     float velocityVsUp = 0;
 
-    Rigidbody2D carRigidbody2D;
+   public Rigidbody2D carRigidbody2D;
 
     void Awake()
     {
@@ -37,6 +38,11 @@ public class carcontroller : MonoBehaviour
         ApplyEngineForce();
         ApplySteering();
         KillOrthogonalVelocity();
+    }
+
+    public float GetVelocityMagnitude()
+    {
+        return carRigidbody2D.velocity.magnitude;
     }
 
     void ApplyEngineForce()
@@ -100,6 +106,7 @@ public class carcontroller : MonoBehaviour
             isBraking = true;
             return true;
         }
+        //sivusuunnan määrä että rendaa jälet
         if (Mathf.Abs(GetLateralVelocity()) > 4.0f)
             return true;
 
